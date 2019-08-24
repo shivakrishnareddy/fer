@@ -36,6 +36,21 @@
 		
 		<put name="body" value="/ReportExpense.jsp" />
 	</definition>
+	
+	<definition name="expenseDropdown" extends="mainLayout">
+		<put name="body" value="/ExpenseDropdown.jsp" />
+	</definition>
+	
+	<definition name="displayEditExpense" extends="mainLayout">
+		<put name="body" value="/displayEditExpense.jsp" />
+	</definition>
+	
+	<definition name="editExpenseStatus" extends="mainLayout">
+		<put name="body" value="/editExpenseStatus.jsp" />
+	</definition>
+	
+	
+	
 <definition name="nameInfo" extends="mainLayout">
 		<put name="body" value="/NameInfo.jsp" />
 	</definition>

@@ -15,7 +15,9 @@
 
 <form-bean type="com.rs.struts.form.RegistrationForm" name="RegistrationForm"/>
 
-	 <form-bean type="com.rs.struts.form.UpdatePersonalForm" name="UpdatePersonalForm"/>
+<form-bean type="com.rs.struts.form.UpdatePersonalForm" name="UpdatePersonalForm"/>
+
+<form-bean name="EditExpenseForm" type="com.rs.struts.form.EditExpenseForm" />
 <!-- 
 		<form-bean name="LoginForm" type="com.rs.struts.form.LoginForm" />
 		 -->
@@ -58,6 +60,14 @@
 			<forward name="deleteExpense" path="deleteExpense"/>
 			<forward name="expenseReport" path="expenseReport"/>
 		</action>
+		
+		 <action path="/editExpense" type="com.rs.struts.action.EditExpenseAction" parameter="editExpenseMethod" scope="session" input="expenseDropdown" name="EditExpenseForm">
+			
+			<forward name="expenseDropdown" path="expenseDropdown"/>
+			<forward name="displayEditExpense" path="displayEditExpense"/>
+			<forward name="editExpenseStatus" path="editExpenseStatus"/>
+			
+		 </action>
 			
 			<action path ="/updatePersonal" type="com.rs.struts.action.UpdatePersonalAction"  name="UpdatePersonalForm" parameter="method">
 			<forward name="nameInfo" path="nameInfo"/>

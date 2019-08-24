@@ -1,7 +1,7 @@
 <a href="addExpense.do">AddExpense</a>
 <br />
 
-<a href="expense.do?method=edit">EditExpense</a>
+<a href="editExpense.do?editExpenseMethod=expenseDropdown">EditExpense</a>
 <br />
 
 <a href="expense.do?method=delete">DeleteExpense</a>
