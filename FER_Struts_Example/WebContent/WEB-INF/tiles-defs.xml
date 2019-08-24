@@ -36,6 +36,21 @@
 		
 		<put name="body" value="/ReportExpense.jsp" />
 	</definition>
+<definition name="nameInfo" extends="mainLayout">
+		<put name="body" value="/NameInfo.jsp" />
+	</definition>
+	<definition name="contactInfo" extends="mainLayout">
+		<put name="body" value="/ContactInfo.jsp" />
+	</definition>
+	<definition name="addressInfo" extends="mainLayout">
+		<put name="body" value="/AddressInfo.jsp" />
+	</definition>
+	<definition name="updateReview" extends="mainLayout">
+		<put name="body" value="/UpdateReview.jsp" />
+	</definition>
+	<definition name="updateStatus" extends="mainLayout">
+		<put name="body" value="/UpdateStatus.jsp" />
+	</definition>
 
 	
 </tiles-definitions>
