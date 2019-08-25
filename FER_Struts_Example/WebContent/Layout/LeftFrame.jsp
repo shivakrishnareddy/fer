@@ -10,8 +10,7 @@
 <a href="DisplayExpenseReport.do?method=ExpenseReport">ExpenseReport</a>
 <br />
 
-<a href="user.do?method=reset">Reset Password</a>
+<a href="displayResetPassword.do">Reset Password</a>
 <br />
-
 <a href="updatePersonal.do?method=nameInfo">UpdatePersonalInfo</a>
 <br />

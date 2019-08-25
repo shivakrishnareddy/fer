@@ -78,6 +78,15 @@
 		<put name="body" value="/UpdateStatus.jsp" />
 	</definition>
 
+<definition name="reset" extends="mainLayout">
+		<put name="body" value="/ResetPassword.jsp" />
+	</definition>
+	<definition name="resetPasswordSuccess" extends="mainLayout">
+		<put name="body" value="/ResetPasswordSuccess.jsp" />
+	</definition>
+	<definition name="resetPasswordFailure" extends="mainLayout">
+		<put name="body" value="/ResetPasswordFailure.jsp" />
+	</definition>
 	
 </tiles-definitions>
 	 

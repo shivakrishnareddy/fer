@@ -20,6 +20,8 @@
 <form-bean name="EditExpenseForm" type="com.rs.struts.form.EditExpenseForm" />
 
 <form-bean name="ExpenseReportForm" type="com.rs.struts.form.ExpenseReportForm" />
+
+ <form-bean type="com.rs.struts.form.ResetPasswordForm" name="ResetPasswordForm"/>
 <!-- 
 		<form-bean name="LoginForm" type="com.rs.struts.form.LoginForm" />
 		 -->
@@ -86,7 +88,11 @@
 			<forward name="updateStatus" path="updateStatus"/>	
 		</action>
 		<action path="/addExpense" type="org.apache.struts.actions.ForwardAction" parameter="addExpense"/>
-		
+		<action type="org.apache.struts.actions.ForwardAction" path="/displayResetPassword" parameter="reset"/>
+		<action type="com.rs.struts.action.ResetPasswordAction" name="ResetPasswordForm" path="/reset" input="/ResetPassword.jsp">
+			<forward name="success" path="resetPasswordSuccess"/>
+			<forward name="failure" path="resetPasswordFailure"/>
+		</action>
 		<!--
 		
 		<action path="/login" name="LoginForm" type="com.rs.struts.action.DynaLoginAction2" input="/Login.jsp">
