@@ -4,7 +4,7 @@
 <a href="editExpense.do?editExpenseMethod=expenseDropdown">EditExpense</a>
 <br />
 
-<a href="expense.do?method=delete">DeleteExpense</a>
+<a href="displayDeleteExpense.do?method=deleteExpenseDropdown">Delete Expense</a>
 <br />
 
 <a href="DisplayExpenseReport.do?method=ExpenseReport">ExpenseReport</a>

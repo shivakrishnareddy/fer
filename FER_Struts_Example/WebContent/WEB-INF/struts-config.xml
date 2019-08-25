@@ -73,6 +73,12 @@
 			
 		 </action>
 		 
+		 <action type="com.rs.struts.action.DeleteExpenseAction" path="/displayDeleteExpense" parameter="method">
+		<forward name="deleteExpenseDropdown" path="deleteExpenseDropdown"/>
+		<forward name="success" path="deleteExpenseSuccess"/>
+		<forward name="failure" path="deleteExpenseFailure"/>
+		</action>
+		 
 		 <action type="org.apache.struts.actions.ForwardAction" path="/DisplayExpenseReport" parameter="ExpenseReport"/>
 		  <action path="/ExpenseReport" type="com.rs.struts.action.ExpenseReportAction" name="ExpenseReportForm" input="ExpenseReport">
 		  

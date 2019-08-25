@@ -28,10 +28,19 @@
 		
 		<put name="body" value="/EditExpense.jsp" />
 	</definition>
-	<definition name="deleteExpense" extends="mainLayout">
-		
-		<put name="body" value="/DeleteExpense.jsp" />
+	
+	<definition name="deleteExpenseDropdown" extends="mainLayout">
+	<put name="body" value="/DeleteExpenseDropdown.jsp"/>
 	</definition>
+	
+	<definition name="deleteExpenseSuccess" extends="mainLayout">
+	<put name="body" value="/DeleteExpenseSuccess.jsp"/>
+	</definition>
+	
+	<definition name="deleteExpenseFailure" extends="mainLayout">
+	<put name="body" value="/DeleteExpenseFailure.jsp"/>
+	</definition>
+	
 	<definition name="expenseReport" extends="mainLayout">
 		
 		<put name="body" value="/ReportExpense.jsp" />
