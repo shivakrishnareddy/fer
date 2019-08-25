@@ -7,7 +7,7 @@
 <a href="expense.do?method=delete">DeleteExpense</a>
 <br />
 
-<a href="expense.do?method=report">ExpenseReport</a>
+<a href="DisplayExpenseReport.do?method=ExpenseReport">ExpenseReport</a>
 <br />
 
 <a href="user.do?method=reset">Reset Password</a>

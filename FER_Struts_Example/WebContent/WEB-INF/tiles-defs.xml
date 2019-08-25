@@ -49,6 +49,17 @@
 		<put name="body" value="/editExpenseStatus.jsp" />
 	</definition>
 	
+	<definition name="ExpenseReport" extends="mainLayout">
+		<put name="body" value="/ExpenseReport.jsp" />
+	</definition>
+	<definition name="ExpenseReportSuccess" extends="mainLayout">
+		<put name="body" value="/ExpenseReportSuccess.jsp" />
+	</definition>
+	<definition name="ExpenseReportFailure" extends="mainLayout">
+		<put name="body" value="/ExpenseReportFailure.jsp" />
+	</definition>
+	
+	
 	
 	
 <definition name="nameInfo" extends="mainLayout">
