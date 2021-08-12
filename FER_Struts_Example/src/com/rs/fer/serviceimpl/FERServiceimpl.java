@@ -13,6 +13,8 @@ import com.rs.fer.bean.User;
 import com.rs.fer.service.FERService;
 import com.rs.fer.util.DBUtil;
 
+/** testing  thr git hub  for practice **/ 
+
 public class FERServiceimpl implements FERService {
 
 	@Override
