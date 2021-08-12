@@ -14,11 +14,12 @@ import com.rs.fer.service.FERService;
 import com.rs.fer.util.DBUtil;
 
 /** testing  thr git hub  for practice **/ 
+// SECOND TESTING 
 
 //THIRED TESTING SHIVA KRISHNA
 
 public class FERServiceimpl implements FERService {
-
+//shiva 
 	@Override
 	public boolean registration(User user) {
 
